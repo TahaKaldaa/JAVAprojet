@@ -1,5 +1,5 @@
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class CalculatorTest {
     @Test
@@ -9,6 +9,6 @@ public class CalculatorTest {
 
     @Test
     public void testSubtraction() {
-        assertEquals(6, Calculator.subtract(10, 4));
+        assertEquals(6, Calculator.sub(10, 4));
     }
 }
