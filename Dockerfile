@@ -1,5 +1,6 @@
 # Utilise une image Java 17 comme base
-   FROM openjdk:17-jre-slim
+   FROM eclipse-temurin:17-jre-alpine
+
 
    # Définit le répertoire de travail
    WORKDIR /app
